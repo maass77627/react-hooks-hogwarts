@@ -25,7 +25,7 @@ function App() {
 		
 	})
 	
-	// .sort((hogone, hogtwo) => {hogone.name.localCompare(hogtwo.name)})
+	
 
 
 	

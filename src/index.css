@@ -154,3 +154,18 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+.hogsort {
+  position: absolute;
+  margin-top: -1200px;
+  margin-left: 1000px;
+
+
+}
+
+.filter {
+  position: absolute;
+  margin-top: -1300px;
+  margin-left: 1000px;
+
+}

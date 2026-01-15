@@ -21,7 +21,7 @@ function HogTile({ hog }) {
 
 
     return(
-        <div onClick={handlePigClick} className={hidden ? "pigTile hidden" : "pigTile"}>
+        <div onClick={handlePigClick} className={hidden ? "pigTile ui card hidden" : "pigTile ui card"}>
             <button onClick={hidePig}>Hide Hog</button>
             <h1>{hog.name}</h1>
             <img src={hog.image} alt="hoggy"></img>
