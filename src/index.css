@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .TwirlyPig {
   transition: all 3s ease-in-out;
   display: inline;
