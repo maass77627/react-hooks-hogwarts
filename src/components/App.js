@@ -14,7 +14,16 @@ function App() {
 	
 	
 	
-	const filteredHogs = showGreased ? allHogs.filter((hog) => hog.greased === true) : allHogs
+	const filteredHogs = [...(showGreased ? allHogs.filter((hog) => hog.greased === true) : allHogs)].sort((a,b)=> {
+		if (sortBy === "name") {
+			return a.name.localeCompare(b.name)
+		} else if (sortBy === "weight") {
+		return	a.weight - b.weight
+		} else {
+			return 0
+		}
+		
+	})
 	
 	// .sort((hogone, hogtwo) => {hogone.name.localCompare(hogtwo.name)})
 

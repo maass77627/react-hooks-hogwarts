@@ -9,7 +9,7 @@ function HogSort({setSortBy}) {
                 <h1>Sort Hogs</h1>
                
                <select onChange={(e) => setSortBy(e.target.value)}>
-                <option value="none">None</option>
+                <option value="none">None</option> 
                 <option value="name">Name</option>
                 <option value="weight">Weight</option>
                </select>
